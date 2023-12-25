@@ -202,9 +202,10 @@ html,body{
     opacity: 1;
 }
 .form-checkbox-box > label{
-    font-size: 1.3rem;
+    display: inline-block;
+    font-size: 1.2rem;
     font-family: sans-serif;
-    margin: 0 0 0.5rem 2.3rem;
+    margin: 0.2rem 0 0 1.9rem;
     color: #fff;
 }
 .form-btn{
