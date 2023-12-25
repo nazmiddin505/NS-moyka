@@ -5,6 +5,7 @@
 html,body{
     height: 100%;
     position: relative;
+    background-color: #000000;
 }
 .header{
     position: relative;
@@ -28,6 +29,7 @@ html,body{
     display: inline-block;
     z-index: 2;
     width: 95%;
+    margin-left: 0.5rem;
 }
 .header-info{
     margin-right: 2rem;
@@ -86,7 +88,7 @@ html,body{
     background-image: url(../images/mobile.png);
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 78vh;
 }
 .wrapper{
     position: absolute;
@@ -107,10 +109,10 @@ html,body{
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
+    text-align: center;
 }
 .log-in,.register{
     border: none;
-    
     text-decoration: none;
     padding: 4% 5%;
     border-radius: 3rem;
